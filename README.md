@@ -1,5 +1,7 @@
 # StrataCode
-# 🚀 StrataCode v2.10  
+
+# 🚀 StrataCode v2.10 (Ajay Viswanagaraj)
+
 ### Automated Legacy Code Analysis & Modernization Pipeline  
 
 StrataCode v2.10 is an AI-powered platform that analyzes legacy Python code and automatically produces:
@@ -57,7 +59,7 @@ This tool is built using **Streamlit** and **Google Gemini 2.5 Flash**, and depl
 | Component | Technology |
 |----------|------------|
 | **UI** | Streamlit |
-| **LLM** | Google Gemini 2.5 Flash |
+| **LLM** | Google Gemini  |
 | **Language** | Python 3 |
 | **Visualization** | Mermaid.js |
 | **Deployment** | Streamlit Cloud |
