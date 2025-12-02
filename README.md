@@ -1,11 +1,9 @@
-# StrataCode
+# 🚀 StrataCode v2.10
 
-# 🚀 StrataCode v2.10 (Ajay Viswanagaraj)
-
-### Automated Legacy Code Analysis & Modernization Pipeline  
+**Automated Legacy Code Analysis & Modernization Pipeline**  
+*By Ajay Viswanagaraj*
 
 StrataCode v2.10 is an AI-powered platform that analyzes legacy Python code and automatically produces:
-
 - 🔥 Risk & vulnerability assessment  
 - 🧠 Business logic extraction  
 - 🕸 Call graph & dependency mapping  
@@ -33,7 +31,6 @@ This tool is built using **Streamlit** and **Google Gemini 2.5 Flash**, and depl
 ---
 
 ## 🏗 System Architecture
-
 ┌──────────────────┐
 │ Upload Code │
 └─────────┬────────┘
@@ -51,48 +48,46 @@ This tool is built using **Streamlit** and **Google Gemini 2.5 Flash**, and depl
 │ + JSON Export │
 └──────────────────┘
 
+text
 
 ---
 
 ## 🛠 Tech Stack
 
-| Component | Technology |
-|----------|------------|
-| **UI** | Streamlit |
-| **LLM** | Google Gemini  |
-| **Language** | Python 3 |
-| **Visualization** | Mermaid.js |
-| **Deployment** | Streamlit Cloud |
-| **Data Format** | JSON |
+| Component         | Technology       |
+|-------------------|------------------|
+| **UI**            | Streamlit        |
+| **LLM**           | Google Gemini    |
+| **Language**      | Python 3         |
+| **Visualization** | Mermaid.js       |
+| **Deployment**    | Streamlit Cloud  |
+| **Data Format**   | JSON             |
 
 ---
 
 ## 📦 Installation
 
 ### 1️⃣ Clone the repository
+
 git clone https://github.com/<your-username>/stratacode.git
 cd stratacode
-
 2️⃣ Install dependencies
+bash
 pip install -r requirements.txt
-
 3️⃣ Add your Gemini API Key
-Create the file:
-
-.streamlit/secrets.toml
+Create the file: .streamlit/secrets.toml
 
 Put inside:
 
+toml
 GEMINI_API_KEY = "your_api_key_here"
-
 4️⃣ Run the app
+bash
 streamlit run app.py
-
 🎯 Usage
+Open the Streamlit app in your browser
 
-Open the Streamlit app in your browser.
-
-Upload a Python file.
+Upload a Python file
 
 The pipeline automatically runs through four stages:
 
@@ -104,20 +99,19 @@ Call Graph Analysis
 
 Modern Code Rewrite
 
-View the diagrams and results.
+View the diagrams and results
 
-Export the JSON report.
+Export the JSON report
 
 📁 Project Structure
+text
 ├── app.py               # Main Streamlit application
 ├── requirements.txt     # Dependencies
-├── README.md            # Documentation
+├── README.md           # Documentation
 └── .streamlit/
-    └── secrets.toml     # Gemini API key (not committed)
-
+    └── secrets.toml    # Gemini API key (not committed)
 📊 Output Examples
 ✔ Risk Analysis
-
 Risk Level: HIGH / MEDIUM / LOW
 
 Vulnerabilities detected
@@ -125,7 +119,6 @@ Vulnerabilities detected
 Bad practices flagged
 
 ✔ Mermaid Diagram Samples
-
 Flowchart
 
 Sequence Diagram
@@ -134,18 +127,16 @@ Call Graph
 
 ✔ Modernized Python Code (PEP-8 + Python 3.12)
 ✔ JSON Report
-
 Export contains:
 
+json
 {
   "risk": { ... },
   "logic": { ... },
   "graph": { ... },
   "modern": { ... }
 }
-
 ⚠ Limitations
-
 Only single-file Python uploads are supported
 
 Multi-file / multi-language analysis not yet implemented
@@ -153,7 +144,6 @@ Multi-file / multi-language analysis not yet implemented
 Modernization accuracy depends on LLM model output
 
 🚧 Future Enhancements
-
 Multi-file project analysis
 
 Support for Java, C, C++, COBOL
@@ -165,14 +155,11 @@ VS Code / JetBrains extension
 On-premise version using open-source LLMs
 
 🤝 Contributing
-
 Pull requests are welcome!
 For major changes, please open an issue first.
 
 📜 License
-
 MIT License © 2025 Ajay Viswanagaraj
 
 ⭐ Support
-
 If this project helped you, consider giving it a star ⭐ on GitHub!
