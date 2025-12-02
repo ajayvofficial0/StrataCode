@@ -10,7 +10,10 @@ st.set_page_config(page_title="StrataCode v2.0", layout="wide")
 
 # 🔑 IMPORTANT: Replace this with your own working API Key from Google AI Studio
 # The one below is a placeholder and might not work.
-genai.configure(api_key="") 
+# Try to get key from Streamlit Secrets (Cloud) or Environment Variable
+api_key = st.secrets["GEMINI_API_KEY"]
+genai.configure(api_key=api_key)
+# genai.configure(api_key="") 
 
 # Use a standard stable model
 MODEL_NAME = "models/gemini-2.5-flash"
