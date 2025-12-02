@@ -71,9 +71,13 @@ text
 
 git clone https://github.com/<your-username>/stratacode.git
 cd stratacode
+---
+
 2️⃣ Install dependencies
-bash
+
 pip install -r requirements.txt
+
+---
 3️⃣ Add your Gemini API Key
 Create the file: .streamlit/secrets.toml
 
@@ -81,9 +85,14 @@ Put inside:
 
 toml
 GEMINI_API_KEY = "your_api_key_here"
+
+---
+
 4️⃣ Run the app
-bash
+
 streamlit run app.py
+---
+
 🎯 Usage
 Open the Streamlit app in your browser
 
@@ -103,6 +112,8 @@ View the diagrams and results
 
 Export the JSON report
 
+---
+
 📁 Project Structure
 text
 ├── app.py               # Main Streamlit application
@@ -110,6 +121,8 @@ text
 ├── README.md           # Documentation
 └── .streamlit/
     └── secrets.toml    # Gemini API key (not committed)
+---
+
 📊 Output Examples
 ✔ Risk Analysis
 Risk Level: HIGH / MEDIUM / LOW
@@ -136,12 +149,16 @@ json
   "graph": { ... },
   "modern": { ... }
 }
+
+---
 ⚠ Limitations
 Only single-file Python uploads are supported
 
 Multi-file / multi-language analysis not yet implemented
 
 Modernization accuracy depends on LLM model output
+
+---
 
 🚧 Future Enhancements
 Multi-file project analysis
@@ -154,12 +171,18 @@ VS Code / JetBrains extension
 
 On-premise version using open-source LLMs
 
+---
+
 🤝 Contributing
 Pull requests are welcome!
 For major changes, please open an issue first.
 
+---
+
 📜 License
 MIT License © 2025 Ajay Viswanagaraj
+
+---
 
 ⭐ Support
 If this project helped you, consider giving it a star ⭐ on GitHub!
