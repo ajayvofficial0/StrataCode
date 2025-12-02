@@ -123,32 +123,6 @@ text
     └── secrets.toml    # Gemini API key (not committed)
 ---
 
-📊 Output Examples
-✔ Risk Analysis
-Risk Level: HIGH / MEDIUM / LOW
-
-Vulnerabilities detected
-
-Bad practices flagged
-
-✔ Mermaid Diagram Samples
-Flowchart
-
-Sequence Diagram
-
-Call Graph
-
-✔ Modernized Python Code (PEP-8 + Python 3.12)
-✔ JSON Report
-Export contains:
-
-json
-{
-  "risk": { ... },
-  "logic": { ... },
-  "graph": { ... },
-  "modern": { ... }
-}
 
 ---
 ⚠ Limitations
@@ -177,12 +151,11 @@ On-premise version using open-source LLMs
 Pull requests are welcome!
 For major changes, please open an issue first.
 
----
+
 
 📜 License
 MIT License © 2025 Ajay Viswanagaraj
 
----
 
 ⭐ Support
 If this project helped you, consider giving it a star ⭐ on GitHub!
